@@ -13,7 +13,7 @@ import java.io.Serializable;
 @Table (name = "persona")
 public class Persona implements Serializable {
 
-    //Serializable permite convertir cualquier objeto cuya en una secuencia
+    //Serializable permite convertir cualquier objeto en una secuencia
     // de bytes que pueden ser posteriormente leídos para restaurar el objeto original.
 
     private static final long serialVersionUID = 1L;
